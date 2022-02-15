@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="img/cat3.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Naron Chen</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <script src="https://kit.fontawesome.com/2481b66331.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet" />
+        <link rel="stylesheet" href="style.css" />
+
+
+  
+    </head>
+    <body>
+        <div class="container">
+            <div class="header_section">
+                <div class="header_text"> 
+                    <h1> Naron Chen</h1>
+                    <h3> CS Student from University of Richmond 
+                        <br>Studying Abroad at University of Edinburgh</h3>
+                        <div class="links" >
+                            <a href="mailto:naron.chen@richmond.edu"><i class="fas fa-envelope"></i>email</a>
+                            <a href="img/Resume_Naron copy.pdf" target="_blank"><i class="fas fa-file-alt"></i>resume</a>
+                            <a href="https://github.com/naronchen" target="_blank"><i class="fab fa-github"></i>github</a>
+                        </div>
+                </div>
+                <div class="header_img">
+                    <img id="myImg" src="img/me.jpeg" alt="">
+                    <img id="myImg2" src="img/pen.gif" alt="">
+                </div>
+                <div class="bio_container">
+                    <div class="bio">
+                        Hi! <br> I'm Naron, a junior at the University of Richmond, majoring computer sicence, minoring in business and film. I am interested in Back-End/Full-Stack engineering, Machine learning, Game Development, and Mobile/Web app Implementation.
+                         I enjoy board games, film making and coding in Dark Mode.
+                    </div>
+                </div>
+            </div>
+
+            <div class="button_container">
+                <div class = "btn_center">
+                    <button id = "darkmode" onclick="darkMode()">Dark Mode</button>
+                    <button id = "lightmode" onclick="lightMode()">Light Mode</button>
+                    <script>
+                    /* task to complete: duplicate code here */
+                    function darkMode() {
+                        var element = document.body;
+                        var img = document.getElementById("myImg")
+                        var img2 = document.getElementById("myImg2")
+                        var dkBtn = document.getElementById("darkmode")
+                        var ltbtn = document.getElementById("lightmode")
+
+                        document.querySelectorAll('a').forEach(e => e.style.color = "white")
+                        document.querySelectorAll('i').forEach(e => e.style.color = "white")
+
+                        element.className = "dark-mode";
+                        img.style.display = "none"
+                        img2.style.display = "block"
+                        dkBtn.style.display = "none"
+                        ltbtn.style.display = "block"
+
+
+                    }
+                    function lightMode() {
+                        var element = document.body;
+                        var img = document.getElementById("myImg")
+                        var img2 = document.getElementById("myImg2")
+                        var dkBtn = document.getElementById("darkmode")
+                        var ltbtn = document.getElementById("lightmode")
+
+                        document.querySelectorAll('a').forEach(e => e.style.color = "black")
+                        document.querySelectorAll('i').forEach(e => e.style.color = "black")
+
+                        element.className = "light-mode";
+                        img.style.display = "block"
+                        img2.style.display = "none"
+                        dkBtn.style.display = "block"
+                        ltbtn.style.display = "none"
+                        
+
+                    }
+                    </script>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>

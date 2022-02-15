@@ -1,0 +1,136 @@
+:root{
+    font-family:'Roboto Mono';
+}
+body {
+    margin-top:10%;
+    padding:0;
+}
+.container{
+    width: 700px;
+    margin: 30px auto;
+    padding: 5px;
+}
+
+.header_section{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.header_text h3{
+    color: grey;
+    font-weight: 50;
+    font-size: medium;
+}
+
+.header_img{
+    margin: 0px 0px 0px 50px;
+    display:block;
+}
+
+#myImg{
+    width: 243px;
+    height: 200;
+    border-radius: 20%;
+    display: block;
+}
+
+#myImg2{
+    width: 243px;
+    height: 200px;
+    display: none;
+}
+
+.links{
+    margin: 40px 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.links a{
+    color: black;
+    display: inline;
+    font-weight: 1000;
+    padding: 0px 50px 0px 0px;
+
+}
+a:hover {
+    color:lightblue;
+}
+
+.links i{
+    color: black;
+    font-size: 20px;
+    margin-right: 10px;
+
+}
+
+i:hover {
+    color: lightblue;
+}
+
+
+.bio{
+    text-align:justify;
+    line-height: 1.5
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+
+.bio_container {
+    margin: 40px 7px ;
+    position: relative;
+}
+
+.button_container{
+    margin-top: 20px;
+
+}
+
+
+.button_container h3{
+    text-align: center;
+}
+
+.btn_center{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#darkmode{
+    background-color: transparent;
+    border: 5;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 1.5rem;
+    box-shadow: 5px 10px;
+    display: block;
+    box-shadow: 1px 2px;
+}
+
+#lightmode{
+    color:white;
+    background-color: transparent;
+    border: 5;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 1.5rem;
+    display: none;
+    box-shadow: 1px 2px;
+}
