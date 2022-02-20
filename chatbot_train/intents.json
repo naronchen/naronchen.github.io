@@ -1,0 +1,74 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "what's up"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, I'm waka",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?",
+          "waka is present",
+          "present!"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "I need to go now", "See you later", "Goodbye"],
+        "responses": [
+          "See ya",
+          "See you later!",
+          "Have a nice day",
+          "Bye!"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "advice",
+        "patterns": [
+          "one advice",
+          "tell me an advice",
+          "do you have any advice for me?",
+          "give me some advice",
+          "I need an advice",
+          "I'm lost"
+        ],
+        "responses": [
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Let me hear a joke",
+          "I want a joke",
+          "joke please",
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?",
+          "make me laugh"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison.",
+          "What do you call bears with no ears? B.",
+          "Why do French people eat snails? They don't like fast food.",
+          "What's red and moves up and down? A tomato in an elevator.",
+          "What do kids play when their mom is using the phone? Bored games.",
+          "How does the ocean say hi? It waves!",
+          "When does a joke become a “dad” joke? When the punchline is a parent."
+        ]
+      }
+    ]
+  }
