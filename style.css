@@ -191,6 +191,7 @@ i:hover {
 
 /* MESSAGES */
 .chatbox__messages {
+    color: black;
     margin-top: auto;
     display: flex;
     overflow-y: scroll;
@@ -261,7 +262,7 @@ i:hover {
 
 .messages__item {
     margin-top: 10px;
-    background: #b9b5b5;
+    background: #e7e4e4;
     padding: 8px 12px;
     max-width: 70%;
 }
