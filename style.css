@@ -261,7 +261,7 @@ i:hover {
 
 .messages__item {
     margin-top: 10px;
-    background: #E0E0E0;
+    background: #b9b5b5;
     padding: 8px 12px;
     max-width: 70%;
 }
@@ -304,7 +304,7 @@ i:hover {
 }
 
 .chatbox__send--footer {
-    color: white;
+    color: black;
 }
 
 .chatbox__button button,
